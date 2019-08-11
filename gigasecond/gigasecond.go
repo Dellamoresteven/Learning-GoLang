@@ -1,9 +1,7 @@
 package gigasecond
 
 import "time"
-import "fmt"
 
 func AddGigasecond(t time.Time) time.Time {
-    fmt.Println(t)
-	return t
+	return t.Add(time.Second * 1000000000)
 }

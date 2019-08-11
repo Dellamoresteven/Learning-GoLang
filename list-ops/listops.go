@@ -1,0 +1,5 @@
+package listops
+
+func Length() {
+
+}
